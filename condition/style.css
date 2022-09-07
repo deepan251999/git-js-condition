@@ -1,0 +1,32 @@
+
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+     display: grid;
+    place-items: center;
+}
+.center{
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
+}*/
+p{
+	color:blue;
+}
+
+.item2{
+	color: yellow !important;
+}
+
