@@ -9,6 +9,7 @@
 </head>
 <body>
 <script>
+
 /*write a java script function to capitalize the first letter of each value in a string;*/
 
 
@@ -27,11 +28,31 @@ console.log(b);*/
 
 
 
+/*
+let a="rose is beautibul";
+let b =a.slice(6,10);
+console.log(b);*/
+
+/*
+let a="rose is beautibul";
+let b =a.slice(-2);
+console.log(b);*/
+
+/*let a="d";
+let b =a.padStart(6,"*");
+console.log(b);*/
 
 
+/*function capital(str) {
+    const a= str.charAt(0).toUpperCase() + str.slice(1);
 
+    return a;
+}
+const string = prompt('Enter a string: ');
 
+const result = capital(string);
 
+console.log(result);*/
 
 
 
@@ -42,11 +63,17 @@ let b=a.replace(/rose/g,"jasmine");
 console.log(b);
 */
 
-
-
-
-
-
+const student={
+	name:"deepan",
+	id:2014299,
+	mobile:9944367507,
+	adress:"3/277,north street",
+	regno:203948
+	
+}
+for(const x in student){
+console.log(x+":"+student[x]);
+}
 </script>
 </body>
 </html>
